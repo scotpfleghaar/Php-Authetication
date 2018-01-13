@@ -1,2 +1,2 @@
 <?php 
-echo "Test";
+require_once "../app/bootstrap.php";
