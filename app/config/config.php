@@ -1,9 +1,9 @@
 <?php
 //DB params
 define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','root');
-define('DB_NAME','omvc');
+define('DB_USER','_YOUR_USER_');
+define('DB_PASS','_YOUR_PASSWORD_');
+define('DB_NAME','_YOUR_DATABASENAME_');
 
 
 
@@ -11,9 +11,9 @@ define('DB_NAME','omvc');
 define('APPROOT', dirname(dirname(__FILE__)));
 
 //URL ROOT
-define('URLROOT','http://localhost:8888');
+define('URLROOT','_YOUR_URL_');
 
 //Site Name
-define('SITENAME', 'OpenMVC');
+define('SITENAME', '_YOUR_SITE_NAME_');
 
 
