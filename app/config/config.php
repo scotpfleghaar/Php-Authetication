@@ -11,9 +11,10 @@ define('DB_NAME','postingproject');
 define('APPROOT', dirname(dirname(__FILE__)));
 
 //URL ROOT
-define('URLROOT','http://localhost:8888/');
+define('URLROOT','http://localhost:8888');
 
 //Site Name
 define('SITENAME', 'Php CRUD Project');
 
-
+// App Version
+define('APPVERSION', '1.0.1');

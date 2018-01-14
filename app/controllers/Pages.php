@@ -6,13 +6,14 @@ class Pages extends Controller {
 
     public function index(){
         
-        $data = ['title'=>'Php CRUD Project'];
+        $data = ['title'=>'Php CRUD Project',
+    'description'=>'Php Sample Crud Application built on custom Php framework'];
 
        $this->view('pages/index', $data);
     }
 
     public function about(){
-        $data = ['title'=>'About Us'];
+        $data = ['title'=>'About Us', 'description'=>'App to share posts with other users'];
        $this->view('pages/about',$data);
     }
 }
