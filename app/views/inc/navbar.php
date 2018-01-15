@@ -25,8 +25,18 @@
       </li>
       <li><a href="#services">Services</a></li>
       <li><a href="#contact">Contact</a></li>
+
+      <?php if(isset($_SESSION['user_id'])) : ?>
+
+      <li><a href="<?php echo URLROOT.'/users/logout';?>">Logout</a></li>
+     
+      <?php else :  ?>
       <li><a href="<?php echo URLROOT.'/users/register';?>">Register</a></li>
       <li><a href="<?php echo URLROOT.'/users/login';?>">Login</a></li>
+
+
+     <?php endif; ?>
+
       <!-- <li><a href="#followme">Follow me</a></li> -->
       </ul>
   </nav>
