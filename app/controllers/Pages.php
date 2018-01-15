@@ -10,8 +10,8 @@ class Pages extends Controller {
             redirect('posts');
         }
         
-        $data = ['title'=>'Php CRUD Project',
-    'description'=>'Php Sample Crud Application built on custom Php framework'];
+        $data = ['title'=>'Php Chat App Project',
+    'description'=>'Built on a custom Php framework'];
 
        $this->view('pages/index', $data);
     }
