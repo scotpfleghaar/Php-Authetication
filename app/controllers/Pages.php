@@ -4,7 +4,11 @@ class Pages extends Controller {
         
     }
 
+
     public function index(){
+        if(isLoggedIn()){
+            redirect('posts');
+        }
         
         $data = ['title'=>'Php CRUD Project',
     'description'=>'Php Sample Crud Application built on custom Php framework'];
