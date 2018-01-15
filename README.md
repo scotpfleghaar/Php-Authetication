@@ -1,5 +1,5 @@
 # Php Chat App
-###Why?
+### Why?
 
 Developed a Custom MVC framework to understand challanges involved. Then Developed a Application base on the MVC framework that featured a local authentication inplementation and full sql CRUD commands to work with MySQL
 
